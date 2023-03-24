@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pessoa>
+    <nome> Ana</nome>
+    <idade> 25 </idade>
+    <faculdade tipo="publico">
+        <tipo>Estudante</tipo>
+        <nome>CEFET</nome>
+        <local>friburgo</local>
+    </faculdade>
+
+
+
+</pessoa>
