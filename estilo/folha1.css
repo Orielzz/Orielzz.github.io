@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+}
+span{
+    color: rgb(200, 20, 150);
+}
+body{
+   background-color: rgb(0, 27, 39);
+   margin: 0px;
+   color: white ;
+   
+    
+}
+main section{
+    margin: 20px;
+
+}
+main{
+    background-color: white;
+    width: 1300px;
+    margin: 0 auto;
+}
+.box{
+    box-sizing: border-box;
+    background-color: rgb(0, 98, 153);
+    width: 420px;
+    padding: 10px 15px;
+    margin: 5px;
+}
+.depoi{
+    background-color: rgb(204, 236, 255);
+    color: black;
+}
+button{
+
+    background-color: rgb(0, 98, 153);
+    border: hidden;
+    color: white;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.sla{
+    color:#000;
+   
+}
+h1,h2,h3,h4,h5,h6{
+    text-transform: uppercase;
+}
+.menu a{
+    text-decoration: none;
+}
+.banner{
+    position: relative;
+    color: black;
+    top: 20px;
+}
+.banner img{
+    width: 100%;
+  
+
+}
+.banner article{
+    color: white;;
+    top: 190px;
+    left: 90px;
+    position: absolute;
+    width:300px;
+}
+.banner h2{
+    font-size: 5em;
+    margin: 0;
+
+}
+.banner small{
+    font-size: 1.5em;
+}
+.portfolio{
+    display: flex;
+    justify-content: space-between;
+}
+.motivacao{
+    display: flex;
+    flex-direction: row;
+    
+}
+.col1{
+    width: 55%;
+}
+.col2{
+    width:40%;
+}
+.float{
+    float: left;
+    margin-right: 10px;
+}
+.secundaria{
+    width: 650px;
+   justify-content: center;
+    background-color: rgb(204, 236, 255);
+ 
+}
+.menu a:hover{
+    font-weight: bold;
+}
+.menu{
+    list-style: none;
+    padding-left:0 ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    
+    width: 450px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+header h1{
+    font-size: 2em;
+    margin: 0;
+    
+    
+}
+header,main,footer{
+    width: 1300px;
+    margin: 0 auto;
+}
+header nav a{
+    
+    color: white;
+}
+header .menu{
+    margin-top: 5px;
+}
+
+
