@@ -1,0 +1,23 @@
+@media(min-width:769px){
+    body{
+        background-color:gold 
+    }
+}
+
+
+
+@media((min-width:577px) and ( max-width:768px)){
+    body{
+        background-color: brown;
+    }
+    .menu{
+        display: none;
+    }
+
+}
+@media(max-width:576px){
+    body{
+        background-color: red;
+    }
+
+}
