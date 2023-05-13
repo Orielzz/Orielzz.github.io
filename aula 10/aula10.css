@@ -1,0 +1,12 @@
+main{
+  margin: 0 auto;
+  width: 800px;
+}
+fieldset{
+    width: 772px;
+}
+table,tbody{
+    width: 800px;
+    height: 200px;
+   
+}
