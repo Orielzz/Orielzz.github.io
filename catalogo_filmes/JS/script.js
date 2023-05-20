@@ -18,9 +18,50 @@ const preencheFicha = filme => {
        
       </li>
     `
+  atribuiClasseFaixaEtaria();
+  // const cartaz = document.createElement("div")
+  // cartaz.classList.add("cartaz");
+
+  // const titulo = document.createElement("h1");
+  // const resumo = document.createElement("p");
+  // const img = document.createElement("img");
+  // const generoList = document.createElement("ul");
+  // const classificacao = document.createElement("p")
+  // genero.classList.add("genero");
+  // classificacao.classList.add("etaria")
+  
+  // const classificacaotn = document.createTextNode(filme.classificacao)
+  // const tituloTN = document.createTextNode(filme.titulo)
+  // const resumoTN = document.createTextNode(filme.resumo)
+
+
+  // img.src= filme.figura;
+  // img.alt=filme.titulo;
+ 
+  //  titulo.appendChild(tituloTN)
+  //  resumo.appendChild(resumoTN)
+  //  classificacao.appendChild(classificacaotn)
+
+
+  //  cartaz.appendChild(titulo)
+  //  cartaz.appendChild(resumo)
+  //  cartaz.appendChild(img)
+  //  return cartaz;
+
     
-    atribuiClasseFaixaEtaria();
   }
+
+  const criaLi = (elementoul, lista) =>{
+    genero.forEach(function(item){
+      const li = document.createElement("li");
+      const textoTN = document.createTextNode(item);
+      li.appendChild(textoTN);
+      elementoul.appendChild(li);
+      
+    });
+  }
+
+
   
   const atribuiClasseFaixaEtaria = () => {
     const elementosFaixaEtaria = document.querySelectorAll('#etaria');
@@ -38,18 +79,15 @@ const preencheFicha = filme => {
     }
   }
 
+
+
+
   const classificacaoComEstrelas = classificacao => {
     const numeroEstrelas = Math.round(classificacao); // arredonda para o número inteiro de estrelas
     const estrelasCheias = '★'.repeat(numeroEstrelas);
     const estrelasVazias = '☆'.repeat(Math.max(0, 5 - numeroEstrelas)); // garante que o valor seja positivo e maior que zero
     return `${estrelasCheias}${estrelasVazias}`;
 };
-
-  
-  
-
-
-
 
 
 
